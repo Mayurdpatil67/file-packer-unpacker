@@ -15,13 +15,13 @@ File Packer Unpacker is a simple Java-based tool that allows users to pack multi
 
 ## Usage
 ### Packing Files
-1. Compile the `Program327.java` file:
+1. Compile the `FilePacker.java` file:
    ```sh
-   javac Program327.java
+   javac FilePacker.java
    ```
 2. Run the program:
    ```sh
-   java Program327
+   java FilePacker
    ```
 3. Follow the prompts:
    - Enter the directory containing the files you want to pack.
@@ -29,13 +29,13 @@ File Packer Unpacker is a simple Java-based tool that allows users to pack multi
 4. The packed file will be created in the current directory.
 
 ### Unpacking Files
-1. Compile the `Program355.java` file:
+1. Compile the `FileUnpacker.java` file:
    ```sh
-   javac Program355.java
+   javac FileUnpacker.java
    ```
 2. Run the program:
    ```sh
-   java Program355
+   java FileUnpacker
    ```
 3. Enter the name of the packed file you want to unpack.
 4. The files will be extracted successfully in the current directory.
@@ -43,8 +43,8 @@ File Packer Unpacker is a simple Java-based tool that allows users to pack multi
 ## File Structure
 ```
 MarvellousPackerUnpacker/
-├── Program327.java  # Packer implementation
-├── Program355.java  # Unpacker implementation
+├── FilePacker.java  # Packer implementation
+├── FileUnpacker.java  # Unpacker implementation
 ├── README.md        # Documentation
 ```
 
