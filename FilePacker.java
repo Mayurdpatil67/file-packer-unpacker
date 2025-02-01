@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-class Program327
+class FilePacker
 {
     public static void main(String arg[]) throws Exception
     {
